@@ -1,0 +1,20 @@
+{
+  "name": "youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "register": "node ./register.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.42",
+    "better-sqlite-pool": "^0.3.2",
+    "better-sqlite3": "^8.4.0",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.11.0",
+    "embed-pagination.js": "^2.1.7"
+  }
+}
