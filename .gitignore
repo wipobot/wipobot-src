@@ -126,7 +126,7 @@ dist
 .vscode-test
 
 # No config.json
-config.json
+*config*.json
 # yarn v2
 .yarn/cache
 .yarn/unplugged
