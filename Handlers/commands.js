@@ -9,6 +9,6 @@ module.exports = (Client) => {
             Client.commands.set(pull.data.name, pull)}
 
     }
-    ["Community", "Moderation", "Other", "Level"].forEach(x => load(x))
+    ["Community", "Moderation", "Other", "Leveling"].forEach(x => load(x))
     console.log(`Loaded ${Client.commands.size} commands!`)
 }

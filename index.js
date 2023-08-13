@@ -21,7 +21,7 @@ db.prepare('CREATE TABLE IF NOT EXISTS logChannels (guildID TEXT PRIMARY KEY, ch
 db.prepare('CREATE TABLE IF NOT EXISTS warnings (guildID TEXT, userID TEXT, reason TEXT, issuerID TEXT, id TEXT)').run()
 db.prepare(`CREATE TABLE IF NOT EXISTS welcomeing (guildID TEXT, channelID TEXT, embedTitle TEXT, embedDesc TEXT, canvas TEXT)`).run()
 db.prepare(`CREATE TABLE IF NOT EXISTS level (guildID TEXT, userID TEXT, level INT(2) DEFAULT '0', xp INT DEFAULT '0', nextlvl INT DEFAULT '20', rank INT DEFAULT '0')`).run()
-
+db.prepare(`CREATE TABLE IF NOT EXISTS leveling (guildID TEXT, excludedChannels VARCHAR[], restrictedChannels VARCHAR[], upChannel TEXT, xpMulti INT DEFAULT "1", rankMulti VARCHAR[], rankMulti2 VARCHAR[], upMessage TEXT, pupMessage TEXT)`).run()
 client.eno = "<:wipo_no:1138343939519287316>"
 client.eyes = "<:wipo_yes:1138346209120112690>"
 client.cache = new Map()

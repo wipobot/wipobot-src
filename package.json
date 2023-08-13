@@ -10,11 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@canvacord/beta": "^6.0.0-dev-3",
     "@napi-rs/canvas": "^0.1.42",
+    "axios": "^1.4.0",
     "better-sqlite-pool": "^0.3.2",
     "better-sqlite3": "^8.4.0",
     "canvas": "^2.11.2",
-    "discord.js": "^14.11.0",
-    "embed-pagination.js": "^2.1.7"
+    "discord.js": "^14.12.1",
+    "embed-pagination.js": "^2.1.7",
+    "undici": "^5.23.0"
   }
 }
