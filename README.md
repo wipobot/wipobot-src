@@ -1,10 +1,7 @@
-# Welcome here, at Wipo!
+Once was a project,
+now is nothing just
+open source.
 
-## How this works?
-
-- If you are a new member of our team we push every code we do. This means we push almost everything.
-- The bot runs off this github things, so do not delete anything.
-- We only allow pull requests for the bot, so we can see what you did. Theres a developer bot token inside token.json.
-
-
-# Thanks for helping this project live.
+The code is free to use.
+Evertyhing in it is made in a few months, including welcoming with canvas.
+Hope you guys like it. My last discord bot project...
